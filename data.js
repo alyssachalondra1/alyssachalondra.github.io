@@ -21,7 +21,7 @@ const portfolioData = {
     { title: "I'm based in",  detail: "SURAKARTA, CENTRAL JAVA, INDONESIA" },
     { title: "I studied at",  detail: "SEBELAS MARET UNIVERSITY (UNS) — INDUSTRIAL ENGINEERING" },
     { title: "My focus areas",detail: "PROCESS IMPROVEMENT, DATA ANALYSIS, INVENTORY CONTROL, AUTOMATION" },
-    { title: "Languages",     detail: "BAHASA INDONESIA (NATIVE), ENGLISH (ADVANCED — TOEIC 785)" },
+    { title: "Languages",     detail: "BAHASA INDONESIA (NATIVE), ENGLISH (ADVANCED — TOEIC 835)" },
   ],
 
   // ----------- SKILLS -----------
@@ -117,22 +117,27 @@ const portfolioData = {
     // ➕ Tambah project baru? Copy block di atas dan ubah isinya.
   ],
 
-  // ----------- FUN FACTS -----------
+  // ----------- CERTIFICATIONS & ACHIEVEMENTS -----------
   funFacts: [
     {
-      icon: "💡",
-      title: "I love turning chaos into clarity.",
-      desc: "Give me a messy spreadsheet and I'll build you a dashboard with auto-refresh and anomaly detection.",
+      icon: "🏅",
+      title: "IBM Certified — Databases & SQL for Data Science with Python",
+      desc: "Professional course covering relational databases, SQL fundamentals, and Python integration. Issued by IBM via Coursera.",
     },
     {
-      icon: "🎨",
-      title: "I do creative work on the side.",
-      desc: "From branding for student events to social-media content design — visual communication is my second language.",
+      icon: "🐍",
+      title: "IBM Certified — Python for Data Science, AI & Development",
+      desc: "Foundational Python certification for data analysis, automation, and application development. Issued by IBM via Coursera.",
     },
     {
-      icon: "📚",
-      title: "Lifelong learner with an industrial mindset.",
-      desc: "IBM-certified in SQL & Python for Data Science, TOEIC 785, and always one Coursera tab away from a new topic.",
+      icon: "🌐",
+      title: "TOEIC Score 835 — Advanced English Proficiency",
+      desc: "Official TOEIC certificate by ETS, demonstrating strong professional English communication (April 2026).",
+    },
+    {
+      icon: "🏆",
+      title: "Semifinalist — Makara Business Plan Competition 2025",
+      desc: "Selected as semifinalist in a national business plan competition organized by HIPMI PT Universitas Indonesia.",
     },
   ],
 
@@ -146,8 +151,8 @@ const portfolioData = {
 
   // ----------- EMAILJS (isi setelah STEP 6) -----------
   emailjs: {
-    publicKey:  "fg106hTHbsrnomGZr",   // ← ganti setelah daftar EmailJS
-    serviceId:  "service_p1pvqiq",   // ← ganti
-    templateId: "template_q4na4rp",  // ← ganti
+    publicKey:  "YOUR_PUBLIC_KEY",   // ← ganti setelah daftar EmailJS
+    serviceId:  "YOUR_SERVICE_ID",   // ← ganti
+    templateId: "YOUR_TEMPLATE_ID",  // ← ganti
   },
 };
