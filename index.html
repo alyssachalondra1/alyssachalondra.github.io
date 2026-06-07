@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alyssa Chalondra Adimulyo — Portfolio</title>
+  <meta name="description" content="Industrial Engineering student | Data Analyst | Process Improvement" />
+  <link rel="icon" href="assets/favicon.png" />
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- EmailJS (untuk contact form) -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Alyssa<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HOME / HERO -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hi everyone, my name is</p>
+        <h1 class="hero-name" id="heroName"></h1>
+        <p class="hero-role" id="heroRole"></p>
+        <p class="hero-tagline" id="heroTagline"></p>
+        <div class="hero-buttons">
+          <a href="assets/cv.pdf" download="Alyssa_Chalondra_Adimulyo_CV.pdf" class="btn btn-primary">
+            <i class="fa-solid fa-download"></i> Download CV
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fa-solid fa-paper-plane"></i> Contact Me
+          </a>
+        </div>
+        <div class="hero-socials" id="heroSocials"></div>
+      </div>
+      <div class="hero-image">
+        <div class="image-frame">
+          <img src="assets/profile.jpg" alt="Alyssa Chalondra Adimulyo" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2 class="section-title">A Quick <span>Background</span></h2>
+    <div class="about-grid">
+      <div class="about-text" id="aboutText"></div>
+      <div class="about-cards" id="aboutCards"></div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <h2 class="section-title">Technical <span>Skills</span></h2>
+    <div class="skills-grid" id="skillsGrid"></div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <h2 class="section-title">Work <span>Experience</span></h2>
+    <div class="timeline" id="timeline"></div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section section-alt">
+    <h2 class="section-title">Featured <span>Projects</span></h2>
+    <p class="section-sub">A showcase of my work in process improvement, data automation, and design.</p>
+    <div class="projects-grid" id="projectsGrid"></div>
+  </section>
+
+  <!-- FUN FACTS -->
+  <section id="funfacts" class="section">
+    <h2 class="section-title">Three <span>Fun Facts</span></h2>
+    <div class="funfacts-grid" id="funFactsGrid"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt">
+    <h2 class="section-title">Get In <span>Touch</span></h2>
+    <p class="section-sub">Looking forward to working with you! Drop me a message below.</p>
+    <div class="contact-grid">
+      <div class="contact-info" id="contactInfo"></div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <input type="text" name="from_name" placeholder="Your Name" required />
+          <input type="email" name="reply_to" placeholder="Your Email" required />
+        </div>
+        <input type="text" name="subject" placeholder="Subject" required />
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary" id="submitBtn">
+          <i class="fa-solid fa-paper-plane"></i> Send Message
+        </button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Alyssa Chalondra Adimulyo. Built with ❤️ using HTML, CSS & JS.</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
