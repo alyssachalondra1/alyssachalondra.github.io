@@ -151,8 +151,8 @@ const portfolioData = {
 
   // ----------- EMAILJS (isi setelah STEP 6) -----------
   emailjs: {
-    publicKey:  "YOUR_PUBLIC_KEY",   // ← ganti setelah daftar EmailJS
-    serviceId:  "YOUR_SERVICE_ID",   // ← ganti
-    templateId: "YOUR_TEMPLATE_ID",  // ← ganti
+    publicKey:  "fg106hTHbsrnomGZr",   // ← ganti setelah daftar EmailJS
+    serviceId:  "service_p1pvqiq",   // ← ganti
+    templateId: "template_q4na4rp",  // ← ganti
   },
 };
