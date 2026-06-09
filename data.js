@@ -99,6 +99,14 @@ const portfolioData = {
       repo: "",   // optional: link GitHub
     },
     {
+      title: "Aplikasi Kelompok 2 (SICPL) — GitHub Project",
+      tags: ["SICPL", "Team Project", "App Development"],
+      image: "",
+      description: "Repository project pengembangan aplikasi SICPL (kelompok 2).",
+      demo: "",
+      repo: "https://github.com/Anggaadi14/apsikelompok2.git",
+    },
+    {
       title: "Inventory Consolidation Research Paper",
       tags: ["Research", "Industrial Engineering", "Automation"],
       image: "",
@@ -151,8 +159,8 @@ const portfolioData = {
 
   // ----------- EMAILJS (isi setelah STEP 6) -----------
   emailjs: {
-    publicKey:  "fg106hTHbsrnomGZr",   // ← ganti setelah daftar EmailJS
-    serviceId:  "service_p1pvqiq",   // ← ganti
-    templateId: "template_q4na4rp",  // ← ganti
+    publicKey:  "YOUR_PUBLIC_KEY",   // ← ganti setelah daftar EmailJS
+    serviceId:  "YOUR_SERVICE_ID",   // ← ganti
+    templateId: "YOUR_TEMPLATE_ID",  // ← ganti
   },
 };
