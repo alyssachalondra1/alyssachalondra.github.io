@@ -1,7 +1,3 @@
-// ===========================================================
-//  📝  EDIT FILE INI UNTUK MENGUBAH ISI WEBSITE
-//  Tidak perlu sentuh HTML / CSS / JS lainnya.
-// ===========================================================
 
 const portfolioData = {
   // ----------- HERO / HOME -----------
@@ -133,7 +129,7 @@ const portfolioData = {
       description: "Early-college project: a desktop pet shop management application built in Python with a Tkinter GUI. Covered basic inventory, transactions, and customer-data flows — my first end-to-end programming project.",
       demo: "",
       repo: "https://github.com/alyssachalondra1/Petshop-Project.git",
-    },w
+    },
     // ➕ Tambah project baru? Copy block di atas dan ubah isinya.
   ],
 
