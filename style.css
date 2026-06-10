@@ -441,13 +441,50 @@ body {
   display: flex;
   gap: 1rem;
 }
-.project-links a {
+.project-links a,
+.project-links .project-link-pill {
   font-size: 0.9rem;
   color: var(--blue);
   text-decoration: none;
   font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
 }
 .project-links a:hover { text-decoration: underline; }
+
+/* Seluruh kartu project menjadi link (klik di mana saja membuka demo/repo) */
+.project-card-link {
+  cursor: pointer;
+  position: relative;
+}
+.project-card-link::after {
+  content: '↗';
+  position: absolute;
+  top: 12px; right: 12px;
+  width: 32px; height: 32px;
+  background: var(--yellow);
+  color: var(--text);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1rem;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+  z-index: 3;
+}
+.project-badge-wip {
+  display: inline-block;
+  background: #fff4cc;
+  color: #8a6d00;
+  border: 1px solid #ffe27a;
+  padding: 0.2rem 0.6rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-left: 0.4rem;
+}
 
 /* ============ FUN FACTS ============ */
 .funfacts-grid {
