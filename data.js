@@ -7,7 +7,7 @@ const portfolioData = {
   // ----------- HERO / HOME -----------
   name: "Alyssa Chalondra Adimulyo",
   role: "Industrial Engineering Student | Data & Process Analyst",
-  tagline: "I build data-driven operational solutions that improve inventory visibility and process efficiency in manufacturing environments.",
+  tagline: " I help teams see their operations more clearly by turning raw, scattered data into structured insights, automated reporting, and process improvements that stick.",
   socials: [
     { icon: "fa-brands fa-linkedin-in", url: "https://linkedin.com/in/alyssachalondra" },
     { icon: "fa-solid fa-envelope",    url: "mailto:alyssachalondra@gmail.com" },
