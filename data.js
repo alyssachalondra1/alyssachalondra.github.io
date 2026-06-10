@@ -11,8 +11,8 @@ const portfolioData = {
   socials: [
     { icon: "fa-brands fa-linkedin-in", url: "https://linkedin.com/in/alyssachalondra" },
     { icon: "fa-solid fa-envelope",    url: "mailto:alyssachalondra@gmail.com" },
-    { icon: "fa-brands fa-instagram",  url: "https://instagram.com/" }, // ganti username
-    { icon: "fa-brands fa-github",     url: "https://github.com/" },    // ganti username
+    { icon: "fa-brands fa-instagram",  url: "https://instagram.com/lyschlndr" }, 
+    { icon: "fa-brands fa-github",     url: "https://github.com/alyssachalondra1" },   
   ],
 
   // ----------- ABOUT -----------
@@ -133,15 +133,7 @@ const portfolioData = {
       description: "Early-college project: a desktop pet shop management application built in Python with a Tkinter GUI. Covered basic inventory, transactions, and customer-data flows — my first end-to-end programming project.",
       demo: "",
       repo: "https://github.com/alyssachalondra1/Petshop-Project.git",
-    },
-    {
-      title: "Aplikasi Kelompok 2 (SICPL) — Team Project",
-      tags: ["SICPL", "Team Project", "App Development"],
-      image: "",
-      description: "Team coursework repository — Kelompok 2 SICPL application development.",
-      demo: "",
-      repo: "https://github.com/Anggaadi14/apsikelompok2.git",
-    },
+    },w
     // ➕ Tambah project baru? Copy block di atas dan ubah isinya.
   ],
 
@@ -177,10 +169,10 @@ const portfolioData = {
     linkedin: "linkedin.com/in/alyssachalondra",
   },
 
-  // ----------- EMAILJS (isi setelah STEP 6) -----------
+  // ----------- EMAILJS -----------
   emailjs: {
-    publicKey:  "YOUR_PUBLIC_KEY",   // ← ganti setelah daftar EmailJS
-    serviceId:  "YOUR_SERVICE_ID",   // ← ganti
-    templateId: "YOUR_TEMPLATE_ID",  // ← ganti
+    publicKey:  "fg106hTHbsrnomGZr",   // 
+    serviceId:  "service_p1pvqiq",   // 
+    templateId: "template_q4na4rp",  // 
   },
 };
