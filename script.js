@@ -49,12 +49,27 @@ document.addEventListener("DOMContentLoaded", () => {
           <h3>${p.title}</h3>
           <p>${p.description}</p>
           <div class="project-links">
-            ${p.demo ? `<a href="${p.demo}" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a>` : ""}
-            ${p.repo ? `<a href="${p.repo}" target="_blank"><i class="fa-brands fa-github"></i> Code</a>` : ""}
+            ${p.demo ? `<span class="project-link-pill"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</span>` : ""}
+            ${p.repo ? `<span class="project-link-pill"><i class="fa-brands fa-github"></i> Code</span>` : ""}
           </div>
         </div>
       </div>`)
     .join("");
+
+  // Bikin kartu project bisa diklik di mana saja bila punya demo / repo
+  document.querySelectorAll("#projectsGrid .project-card").forEach((card, i) => {
+    const p = d.projects[i];
+    const url = (p && (p.demo || p.repo)) || "";
+    if (url) {
+      card.classList.add("project-card-link");
+      card.setAttribute("title", "Open project ↗");
+      card.addEventListener("click", () => window.open(url, "_blank", "noopener"));
+    }
+    if (p && p.wip) {
+      const h3 = card.querySelector("h3");
+      if (h3) h3.insertAdjacentHTML("beforeend", ' <span class="project-badge-wip">🚧 In Progress</span>');
+    }
+  });
 
   // Fun facts
   document.getElementById("funFactsGrid").innerHTML = d.funFacts
