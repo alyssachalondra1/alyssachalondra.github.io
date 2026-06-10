@@ -89,38 +89,58 @@ const portfolioData = {
   ],
 
   // ----------- PROJECTS (tambah/edit di sini) -----------
+  // 💡 Kalau project punya field "demo" atau "repo", SELURUH kartu otomatis
+  //    bisa diklik & membuka link tersebut di tab baru. Demo diprioritaskan.
+  //    Set "wip: true" untuk menampilkan badge 🚧 In Progress di samping judul.
   projects: [
     {
       title: "Packaging Inventory Control System — PT SMART Tbk",
       tags: ["Power Query", "Excel VBA", "Process Improvement", "ETL"],
-      image: "assets/project-ptsmart.jpg", // pakai screenshot dashboard kamu
+      image: "assets/project-ptsmart.jpg",
       description: "Designed a low-cost digital inventory consolidation system for a multi-shift production environment. Automated 3-operator data integration, S_awal lookup, ΔS calculation, and real-time IRI detection. Reduced reconciliation time by 96% (52.4 min → 2.1 min) and achieved 100% anomaly detection.",
-      demo: "",   // optional: link demo / file
-      repo: "",   // optional: link GitHub
+      demo: "https://www.linkedin.com/posts/alyssachalondra_packaging-operations-pt-smart-tbk-ugcPost-7466442767804682240-qSNu/",
+      repo: "",
     },
     {
-      title: "Aplikasi Kelompok 2 (SICPL) — GitHub Project",
-      tags: ["SICPL", "Team Project", "App Development"],
-      image: "",
-      description: "Repository project pengembangan aplikasi SICPL (kelompok 2).",
-      demo: "",
-      repo: "https://github.com/Anggaadi14/apsikelompok2.git",
-    },
-    {
-      title: "Inventory Consolidation Research Paper",
-      tags: ["Research", "Industrial Engineering", "Automation"],
-      image: "",
-      description: "Perancangan Sistem Konsolidasi Data Inventory Packaging Berbasis Power Query dan VBA untuk Akurasi Stok (Under submission, May 2026). Built a low-cost inventory control framework, reducing reconciliation time by ~96%.",
-      demo: "",
+      title: "Global Happiness Dashboard — Tableau",
+      tags: ["Tableau", "Data Visualization", "Dashboard", "Analytics"],
+      image: "assets/project-tableau.jpg",
+      description: "Interactive Tableau dashboard exploring how GDP, health, and freedom shape global happiness (2015–2019). Built scatter plots, correlation analysis (R²), country rankings, and a world happiness map to surface the strongest drivers of well-being.",
+      demo: "https://drive.google.com/drive/folders/1hm_9ak8z6WPFilQxgYxkfaJm0p3BT7K7?usp=sharing",
       repo: "",
     },
     {
       title: "Commercial Poultry Site Layout Design",
       tags: ["AutoCAD", "SketchUp", "Lumion", "Technical Design"],
-      image: "",
-      description: "Freelance project: designed site layouts and facility visualizations for a commercial poultry operation. Delivered technical planning documents and 3D operational layouts.",
+      image: "assets/project-poultry.jpg",
+      description: "Freelance project: designed site layouts and 3D facility visualizations for a commercial poultry operation. Delivered technical planning documents and realistic operational renders — silos, housing, access road, and perimeter fencing.",
       demo: "",
       repo: "",
+    },
+    {
+      title: "SIAKAD-style Academic Web App (Personal SICPL)",
+      tags: ["Web Development", "HTML / CSS / JS", "Personal Project"],
+      image: "",
+      wip: true,
+      description: "Personal SICPL project: building a SIAKAD-inspired academic information web app. Currently in active development — still iterating on UI patterns, data structure, and student-facing features.",
+      demo: "",
+      repo: "https://github.com/alyssachalondra1/alyssachalondra.github.io.git",
+    },
+    {
+      title: "Petshop Management App — Python + Tkinter",
+      tags: ["Python", "Tkinter", "GUI", "Early Coursework"],
+      image: "",
+      description: "Early-college project: a desktop pet shop management application built in Python with a Tkinter GUI. Covered basic inventory, transactions, and customer-data flows — my first end-to-end programming project.",
+      demo: "",
+      repo: "https://github.com/alyssachalondra1/Petshop-Project.git",
+    },
+    {
+      title: "Aplikasi Kelompok 2 (SICPL) — Team Project",
+      tags: ["SICPL", "Team Project", "App Development"],
+      image: "",
+      description: "Team coursework repository — Kelompok 2 SICPL application development.",
+      demo: "",
+      repo: "https://github.com/Anggaadi14/apsikelompok2.git",
     },
     // ➕ Tambah project baru? Copy block di atas dan ubah isinya.
   ],
