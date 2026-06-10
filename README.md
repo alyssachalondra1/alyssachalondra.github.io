@@ -17,4 +17,4 @@ Open `data.js` and edit the `portfolioData` object. No build step required.
 Powered by EmailJS (free tier). Configure keys in `data.js → emailjs`.
 
 ## 🌐 Live
-https://alyssachalondra.github.io/portfolio/
+https://alyssachalondra1.github.io/portfolio/
