@@ -97,6 +97,14 @@ const portfolioData = {
       demo: "https://www.linkedin.com/posts/alyssachalondra_packaging-operations-pt-smart-tbk-ugcPost-7466442767804682240-qSNu/",
       repo: "",
     },
+     {
+      title: "HR Attrition Dashboard — Power BI",
+      tags: ["Power BI", "DAX", "Power Query", "HR Analytics"],
+      image: "assets/project-powerbi-hr.png",
+      description: "Interactive Power BI dashboard analyzing employee attrition across 1,470 employees (35 attributes from the IBM HR sample dataset). Built the full pipeline in Power Query — cleaning, type-casting, and engineering banded features (Age Group, Income Band, Distance Band) — then layered DAX measures for Attrition %, High-Risk headcount, and average tenure. Signature feature: an Employee Attrition Risk score (High / Medium / Low) that blends OverTime, JobSatisfaction, DistanceFromHome, and MonthlyIncome into a single retention-risk indicator. Visualized through combo charts (bar + line) by Department, Age Group, and OverTime, donut breakdowns by Gender and Risk, a Risk × OverTime heatmap matrix, and a custom tooltip page for drill-down — all in a navy-blue theme with a sidebar filter panel.",
+      demo: "",
+      repo: "https://github.com/alyssachalondra1/power-bi-hr-attrition.git",
+    },
     {
       title: "Global Happiness Dashboard — Tableau",
       tags: ["Tableau", "Data Visualization", "Dashboard", "Analytics"],
