@@ -105,7 +105,15 @@ const portfolioData = {
       demo: "",
       repo: "https://github.com/alyssachalondra1/power-bi-hr-attrition.git",
     },
-    {
+     {
+      title: "Sloe — AI Internship Workspace",
+      tags: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "Google Gemini AI", "Vercel"],
+      image: "assets/project-sloe.png",
+      description:"AI-powered internship workspace designed to streamline the entire application process in one place. Users can import internship opportunities by uploading recruitment posters or pasting LinkedIn job links, where Google Gemini automatically extracts key details into a Kanban-style application tracker. Built collaborative group workspaces that allow students to share opportunities within their communities, enabling members to save shared listings directly into their personal trackers. Additional features include AI-powered job match scoring based on uploaded CVs, motivation letter generation, document checklists, reminders, and a lightweight gamification system (XP, streaks, levels, and mascot interactions) to encourage consistent applications. Developed with Next.js App Router, TypeScript, Tailwind CSS, Supabase Authentication & Database, Google Gemini AI, and deployed on Vercel.",
+      demo: "https://sloe.my.id",
+      repo: "https://github.com/alyssachalondra1/internquest.git",
+    },
+     {
       title: "Global Happiness Dashboard — Tableau",
       tags: ["Tableau", "Data Visualization", "Dashboard", "Analytics"],
       image: "assets/project-tableau.jpg",
@@ -120,23 +128,6 @@ const portfolioData = {
       description: "Freelance project: designed site layouts and 3D facility visualizations for a commercial poultry operation. Delivered technical planning documents and realistic operational renders — silos, housing, access road, and perimeter fencing.",
       demo: "",
       repo: "",
-    },
-    {
-      title: "SIAKAD-style Academic Web App (Personal SICPL)",
-      tags: ["Web Development", "HTML / CSS / JS", "Personal Project"],
-      image: "",
-      wip: true,
-      description: "Personal SICPL project: building a SIAKAD-inspired academic information web app. Currently in active development — still iterating on UI patterns, data structure, and student-facing features.",
-      demo: "",
-      repo: "https://github.com/alyssachalondra1/alyssachalondra.github.io.git",
-    },
-    {
-      title: "Petshop Management App — Python + Tkinter",
-      tags: ["Python", "Tkinter", "GUI", "Early Coursework"],
-      image: "",
-      description: "Early-college project: a desktop pet shop management application built in Python with a Tkinter GUI. Covered basic inventory, transactions, and customer-data flows — my first end-to-end programming project.",
-      demo: "",
-      repo: "https://github.com/alyssachalondra1/Petshop-Project.git",
     },
     // ➕ Tambah project baru? Copy block di atas dan ubah isinya.
   ],
