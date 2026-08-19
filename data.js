@@ -35,6 +35,17 @@ const portfolioData = {
   // ----------- EXPERIENCE -----------
   experience: [
     {
+      date: "Aug 2026 – Present",
+      title: "Business Planning & Sales Support Intern",
+      company: "PT Serasi Autoraya",
+      points: [
+        "Supported business planning activities through performance monitoring and periodic review of business plan targets against actual performance.",
+        "Prepared and consolidated branch-level data extracted from SAP for business performance reviews and coordination with Serasi Logistics branches.",
+        "Analyzed expenditure data and identified anomalies requiring further clarification with respective branches.",
+        "Developed a sales performance dashboard to monitor project progress, sales achievements, and salesperson performance.",
+      ],
+    },
+    {
       date: "Sept 2025 – Present",
       title: "Assistant Laboratory — System Engineering & Industrial Policy Analysis",
       company: "Universitas Sebelas Maret",
